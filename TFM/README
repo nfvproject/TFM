@@ -1,0 +1,4 @@
+We adopt OpenNF modified Prads which export Southbound APIs.(Export and Import state). However, we disable the function that will re-forward in-flight packet to controller during state transfer. We offload this function in TFM box(click-based).
+
+Now, the controller of OpenNF extenstion is available now. Our original controller is coming soon.
+
