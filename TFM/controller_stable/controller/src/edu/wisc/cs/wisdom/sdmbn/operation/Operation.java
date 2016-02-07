@@ -13,7 +13,6 @@ import edu.wisc.cs.wisdom.sdmbn.json.DelPerflowAckMessage;
 import edu.wisc.cs.wisdom.sdmbn.json.DelMultiflowAckMessage;
 import edu.wisc.cs.wisdom.sdmbn.json.EventsAckMessage;
 import edu.wisc.cs.wisdom.sdmbn.json.GetPerflowAckMessage;
-//wangyang
 import edu.wisc.cs.wisdom.sdmbn.json.MigrateFinishAckMessage;
 import edu.wisc.cs.wisdom.sdmbn.json.GetMultiflowAckMessage;
 import edu.wisc.cs.wisdom.sdmbn.json.GetAllflowsAckMessage;
@@ -91,7 +90,6 @@ public abstract class Operation
 	
 	public abstract int execute();
 	
-        //wangyang
         public void receiveMigrateFinishAck(MigrateFinishAckMessage msg) {}
 	public void receiveStatePerflow(StatePerflowMessage msg) {}
 	public void receiveStateMultiflow(StateMultiflowMessage msg) {}

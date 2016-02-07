@@ -26,7 +26,6 @@ public class Message
 	public static final String COMMAND_DELETE_PERFLOW  = "delete-perflow";
 	public static final String COMMAND_ENABLE_EVENTS = "enable-events";
 	public static final String COMMAND_DISABLE_EVENTS = "disable-events";
-        //wangyang	
 	public static final String RESPONSE_MIGRATE_FINISH_ACK = "tfm-migrate-finish";
 	public static final String RESPONSE_GET_PERFLOW_ACK = "get-perflow-ack";
 	public static final String RESPONSE_PUT_PERFLOW_ACK = "put-perflow-ack";

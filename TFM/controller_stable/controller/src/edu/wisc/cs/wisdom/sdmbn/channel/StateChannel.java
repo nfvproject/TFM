@@ -26,7 +26,6 @@ import edu.wisc.cs.wisdom.sdmbn.json.GetMultiflowAckMessage;
 import edu.wisc.cs.wisdom.sdmbn.json.GetMultiflowMessage;
 import edu.wisc.cs.wisdom.sdmbn.json.GetPerflowAckMessage;
 import edu.wisc.cs.wisdom.sdmbn.json.GetPerflowMessage;
-//wangyang
 import edu.wisc.cs.wisdom.sdmbn.json.MigrateFinishAckMessage;
 import edu.wisc.cs.wisdom.sdmbn.json.Message;
 import edu.wisc.cs.wisdom.sdmbn.json.MessageException;
@@ -112,7 +111,6 @@ public class StateChannel extends BaseChannel
 		{ op.receiveDelPerflowAck((DelPerflowAckMessage)msg); }
 		else if (msg instanceof DelMultiflowAckMessage) 
 		{ op.receiveDelMultiflowAck((DelMultiflowAckMessage)msg); }
-		//wangyang
 		else if (msg instanceof MigrateFinishAckMessage) 
 		{ op.receiveMigrateFinishAck((MigrateFinishAckMessage)msg); }
 		else if (msg instanceof EventsAckMessage) 

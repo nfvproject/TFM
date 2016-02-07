@@ -111,7 +111,6 @@ void sdmbn_notify_packet_received(char *type, struct timeval *recv_time)
     //INFO_PRINT("pkts_received=%d, flows_active=%d,received_time=%f"
     //      ,sdmbn_stats.pkts_received, sdmbn_stats.flows_active,releaseTime); 
     // Output count statistics 
-    //wangyang
     //if (0 == (sdmbn_stats.pkts_received % 10))
     //{ INFO_PRINT("pkts_received=%d, flows_active=%d",
     //        sdmbn_stats.pkts_received, sdmbn_stats.flows_active); }

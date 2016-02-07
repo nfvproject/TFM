@@ -8,7 +8,6 @@ import java.util.concurrent.Future;
 
 
 import net.floodlightcontroller.core.IOFSwitch;
-//wangyang
 import java.io.InputStream;
 import java.io.PrintStream;
 import org.apache.commons.net.telnet.TelnetClient;
@@ -27,7 +26,6 @@ import edu.wisc.cs.wisdom.sdmbn.json.EventsAckMessage;
 import edu.wisc.cs.wisdom.sdmbn.json.GetMultiflowAckMessage;
 import edu.wisc.cs.wisdom.sdmbn.json.GetMultiflowMessage;
 import edu.wisc.cs.wisdom.sdmbn.json.GetPerflowAckMessage;
-//wangyang
 import edu.wisc.cs.wisdom.sdmbn.json.MigrateFinishAckMessage;
 import edu.wisc.cs.wisdom.sdmbn.json.GetPerflowMessage;
 import edu.wisc.cs.wisdom.sdmbn.json.Message;
@@ -161,7 +159,6 @@ public class MoveOperation extends Operation
 	private long moveStart;
 	private int srcEventCount;
         
-        //wangyang
 	private int dstEventCount;
 	private long getstart;
         int port;  
@@ -205,10 +202,8 @@ public class MoveOperation extends Operation
                 this.isFirstStateRcvd = false;
 		this.moveStart = -1;
 		this.srcEventCount = 0;
-		//wangyang
 		this.dstEventCount = 0;
 		this.packetCount = 0;
-		//wangyang
 		tfmInit();
 	}
 
@@ -459,7 +454,6 @@ public class MoveOperation extends Operation
 			log.info("Completed all state transfer");
 			log.info(String.format("state move time=%d",
 					this.getstart));
-			//wangyang
 			/*while (!this.eventsList.isEmpty())
 			{ 
 				//if we are here, this operation does not use early release optimization

@@ -168,7 +168,6 @@ public class TestTimedMoveAll extends TestTimed
 		PerflowKey key = new PerflowKey();
 		key.setDlType(Ethernet.TYPE_IPv4);
 		//key.setNwProto(IPv4.PROTOCOL_TCP);
-		//wangyangmodify
 		key.setNwProto(IPv4.PROTOCOL_UDP);
 		log.info("Key="+key);
 		int moveOpId = sdmbnProvider.move(mb1, mb2, key, this.scope, 

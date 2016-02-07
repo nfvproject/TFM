@@ -408,7 +408,6 @@ void sdmbn_preprocess_packet(const struct pcap_pkthdr *hdr,
             }
 
             // Check if we just dequeued this packet from the buffer
-            //wangyang
             if (context->injected == 1)
             { 
                 context->stop = 0;

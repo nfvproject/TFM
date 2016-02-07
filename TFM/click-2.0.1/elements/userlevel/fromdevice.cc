@@ -248,7 +248,6 @@ FromDevice::open_pcap(String ifname, int snaplen, bool promisc,
     //	return 0;
     //} else if (ebuf[0])
     //	errh->warning("%s", ebuf);
-    //wangyang 
     int status;
     pcap_t *pcap = pcap_create(ifname.mutable_c_str(), ebuf);
     // Note: pcap error buffer will contain the interface name
