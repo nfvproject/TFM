@@ -18,7 +18,7 @@
  * notice is a summary of the Click LICENSE file; the license in that file is
  * legally binding.
  */
-
+/*we modify the pcap of click to just capture in-bound packets*/
 #include <click/config.h>
 #include <sys/types.h>
 #include <sys/time.h>
