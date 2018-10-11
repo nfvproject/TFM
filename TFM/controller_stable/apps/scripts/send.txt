@@ -1,0 +1,15 @@
++ [[ 4 -lt 2 ]]
++ [[ 4 -eq 3 ]]
++ [[ 4 -gt 5 ]]
++ INTERFACE=eth2
++ TRACEDIR=../
++ [[ 4 -gt 2 ]]
++ LISTEN_IP=192.168.0.1
++ LISTEN_PORT=8080
++ [[ 4 -gt 4 ]]
++ echo 'Send on interface eth2'
++ echo 'Starting traceload server'
++ echo 'Listening for commands on 192.168.0.1:8080'
++ nc -l 192.168.0.1 8080
+nc: Cannot assign requested address
++ read COMMAND
