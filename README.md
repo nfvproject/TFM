@@ -1,3 +1,3 @@
 # TFM
 Transparent Flow Migration for NFV 
-Opensource code is coming soon!!!
+Opensource includes TFM box, OpenNF-based controller and PRADS which enabled the premigration. 
