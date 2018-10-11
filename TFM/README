@@ -2,3 +2,4 @@ We adopt OpenNF modified Prads which export Southbound APIs.(Export and Import s
 
 Now, the controller of OpenNF extenstion is available now. Our original controller is coming soon (Python).
 
+We modify the Prads to enable the pre-migration for flow states.
